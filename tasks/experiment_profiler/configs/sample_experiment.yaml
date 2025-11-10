@@ -1,0 +1,12 @@
+experiment_id: demo_run
+model: claude-3-opus
+max_tokens: 200
+temperature: 0.2
+dataset_path: tasks/experiment_profiler/data/dialogues.json
+log_schema_version: 1
+output_fields:
+  - completion
+  - metadata
+metrics:
+  - fact_coverage
+  - refusal_rate
