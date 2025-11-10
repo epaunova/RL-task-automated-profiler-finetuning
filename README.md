@@ -1,4 +1,4 @@
-# RL Task: Anthropic Experiment Profiler
+# RL Task: Experiment Profiler
 
 This repository implements the exact RL task that was described in the earlier
 recommendation: building an automated profiler for Anthropic Claude finetuning
