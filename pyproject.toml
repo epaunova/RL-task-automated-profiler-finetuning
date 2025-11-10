@@ -1,0 +1,33 @@
+diff --git a/pyproject.toml b/pyproject.toml
+new file mode 100644
+index 0000000000000000000000000000000000000000..2100a3f311a621d08841f4c478aab67cc6ebf271
+--- /dev/null
++++ b/pyproject.toml
+@@ -0,0 +1,24 @@
++[project]
++name = "anthropic-experiment-profiler-task"
++version = "0.1.0"
++description = "RL task for implementing an Anthropic experiment profiler"
++authors = [{ name = "RL Task Author" }]
++readme = "README.md"
++requires-python = ">=3.10"
++dependencies = [
++    "anthropic>=0.25.0",
++    "click>=8.1",
++    "pydantic>=2.7",
++    "pyyaml>=6.0",
++    "rich>=13.7",
++]
++
++[project.optional-dependencies]
++dev = [
++    "pytest>=7.4",
++    "pytest-cov>=4.1",
++]
++
++[build-system]
++requires = ["setuptools>=65"]
++build-backend = "setuptools.build_meta"
+ 
+
+)
